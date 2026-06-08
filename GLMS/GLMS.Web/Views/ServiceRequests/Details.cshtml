@@ -1,18 +1,27 @@
-@model GLMS.Web.Models.ServiceRequest
+@model GLMS.Web.ViewModels.ServiceRequests.ServiceRequestViewModel
+
 @{
-    ViewData["Title"] = "Request Details";
+    ViewData["Title"] = "Service Request Details";
 }
 
-<h3>Service Request #@Model.Id</h3>
-<hr />
-<dl class="row">
-    <dt class="col-sm-3">Contract</dt><dd class="col-sm-9"><a asp-controller="Contracts" asp-action="Details" asp-route-id="@Model.ContractId">#@Model.ContractId</a></dd>
-    <dt class="col-sm-3">Client</dt><dd class="col-sm-9">@Model.Contract?.Client?.Name</dd>
-    <dt class="col-sm-3">Description</dt><dd class="col-sm-9">@Model.Description</dd>
-    <dt class="col-sm-3">Cost (USD)</dt><dd class="col-sm-9">@Model.CostUsd.ToString("N2")</dd>
-    <dt class="col-sm-3">Cost (ZAR)</dt><dd class="col-sm-9">@Model.CostZar.ToString("N2")</dd>
-    <dt class="col-sm-3">Status</dt><dd class="col-sm-9">@Model.Status</dd>
-    <dt class="col-sm-3">Created</dt><dd class="col-sm-9">@Model.CreatedOn.ToString("f")</dd>
-</dl>
-
-<a asp-action="Index" class="btn btn-secondary">Back</a>
+<h2>Service Request Details</h2>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Contract ID</dt>
+        <dd class="col-sm-10">@Model.ContractId</dd>
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+        <dt class="col-sm-2">Cost (USD)</dt>
+        <dd class="col-sm-10">$@Model.CostUsd.ToString("0.00")</dd>
+        <dt class="col-sm-2">Cost (ZAR)</dt>
+        <dd class="col-sm-10">R@Model.CostZar.ToString("0.00")</dd>
+        <dt class="col-sm-2">Status</dt>
+        <dd class="col-sm-10">@Model.Status</dd>
+        <dt class="col-sm-2">Created On</dt>
+        <dd class="col-sm-10">@Model.CreatedOn.ToString("g")</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

@@ -1,57 +1,82 @@
-using GLMS.Web.Data;
-using GLMS.Web.Models;
+using GLMS.Web.ApiServices;
+using GLMS.Web.ViewModels.Clients;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace GLMS.Web.Controllers
 {
+    [Authorize]
     public class ClientsController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly ClientApiService _clientService;
 
-        public ClientsController(AppDbContext db)
+        public ClientsController(ClientApiService clientService)
         {
-            _db = db;
+            _clientService = clientService;
         }
 
         public async Task<IActionResult> Index()
         {
-            return View(await _db.Clients.ToListAsync());
+            var clients = await _clientService.GetAllAsync();
+            return View(clients);
         }
 
-        public IActionResult Create() => View();
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Client client)
+        public async Task<IActionResult> Details(int id)
         {
-            if (!ModelState.IsValid) return View(client);
-            _db.Clients.Add(client);
-            await _db.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        public async Task<IActionResult> Edit(int id)
-        {
-            var client = await _db.Clients.FindAsync(id);
+            var client = await _clientService.GetByIdAsync(id);
             if (client == null) return NotFound();
             return View(client);
         }
 
+        public IActionResult Create()
+        {
+            return View(new CreateClientViewModel());
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Client client)
+        public async Task<IActionResult> Create(CreateClientViewModel model)
         {
-            if (id != client.Id) return BadRequest();
-            if (!ModelState.IsValid) return View(client);
-            _db.Clients.Update(client);
-            await _db.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid)
+            {
+                var success = await _clientService.CreateAsync(model);
+                if (success) return RedirectToAction(nameof(Index));
+                ModelState.AddModelError("", "Failed to create client.");
+            }
+            return View(model);
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var client = await _clientService.GetByIdAsync(id);
+            if (client == null) return NotFound();
+
+            var model = new CreateClientViewModel
+            {
+                Name = client.Name,
+                ContactEmail = client.ContactEmail,
+                ContactPhone = client.ContactPhone,
+                Region = client.Region
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, CreateClientViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var success = await _clientService.UpdateAsync(id, model);
+                if (success) return RedirectToAction(nameof(Index));
+                ModelState.AddModelError("", "Failed to update client.");
+            }
+            return View(model);
         }
 
         public async Task<IActionResult> Delete(int id)
         {
-            var client = await _db.Clients.FindAsync(id);
+            var client = await _clientService.GetByIdAsync(id);
             if (client == null) return NotFound();
             return View(client);
         }
@@ -60,19 +85,8 @@ namespace GLMS.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var client = await _db.Clients.FindAsync(id);
-            if (client != null) _db.Clients.Remove(client);
-            await _db.SaveChangesAsync();
+            await _clientService.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
-        }
-
-        public async Task<IActionResult> Details(int id)
-        {
-            var client = await _db.Clients
-                .Include(c => c.Contracts)
-                .FirstOrDefaultAsync(c => c.Id == id);
-            if (client == null) return NotFound();
-            return View(client);
         }
     }
 }

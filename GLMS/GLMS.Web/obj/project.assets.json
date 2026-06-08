@@ -2995,11 +2995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
+      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
       "projectName": "GLMS.Web",
-      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
+      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
       "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\obj\\",
+      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

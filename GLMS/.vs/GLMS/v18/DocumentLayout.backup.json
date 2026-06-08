@@ -1,18 +1,358 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.tests\\currencycalculationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\currencycalculationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.tests\\workflowlogictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\contractsapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\contractsapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\workflowlogictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\workflowlogictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.tests\\filevalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\filevalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\filevalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\currencycalculationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\currencycalculationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\authapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\authapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\glms.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\glms.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\clientsapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\clientsapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\servicerequestapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\servicerequestapitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\infrastructure\\testauthhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\infrastructure\\testauthhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\infrastructure\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\infrastructure\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.tests\\infrastructure\\glmswebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|GLMS.Tests\\GLMS.Tests.csproj|solutionrelative:glms.tests\\infrastructure\\glmswebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\servicerequests\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\servicerequests\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\servicerequests\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\servicerequests\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\servicerequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\servicerequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\servicerequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\servicerequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\contracts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\contracts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\contracts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\contracts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\contracts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\contracts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\contracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\contracts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\contracts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\clients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\clients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\clients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\clients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\apiservices\\servicerequestapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\apiservices\\servicerequestapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\apiservices\\contractapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\apiservices\\contractapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\apiservices\\clientapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\apiservices\\clientapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\apiservices\\authapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\apiservices\\authapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\apiservices\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\apiservices\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\servicerequests\\createservicerequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\servicerequests\\createservicerequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\servicerequests\\servicerequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\servicerequests\\servicerequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\contracts\\updatecontractstatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\contracts\\updatecontractstatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\contracts\\contractfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\contracts\\contractfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\contracts\\contractviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\contracts\\contractviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\contracts\\createcontractviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\contracts\\createcontractviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\clients\\createclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\clients\\createclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\clients\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\clients\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\auth\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\auth\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\viewmodels\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\viewmodels\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\glms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\glms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\glms.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|solutionrelative:glms.web\\glms.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\factories\\standardcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\factories\\standardcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\factories\\premiumcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\factories\\premiumcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\factories\\icontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\factories\\icontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\factories\\contractfactoryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\factories\\contractfactoryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\observers\\icontractobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\observers\\icontractobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\observers\\emailnotificationobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\observers\\emailnotificationobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\observers\\contractsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\observers\\contractsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\observers\\auditlogobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\observers\\auditlogobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\currencycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\currencycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\eurtozarstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\eurtozarstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\icurrencystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\icurrencystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\servicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\servicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\usdtozarstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\usdtozarstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\controllers\\servicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\controllers\\contractscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\interfaces\\iexchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\interfaces\\iexchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\interfaces\\iservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\interfaces\\iservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\interfaces\\icontractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\interfaces\\icontractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\services\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\services\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +362,1140 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Dockerfile",
+              "RelativeDocumentMoniker": "GLMS.Web\\Dockerfile",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Dockerfile",
+              "RelativeToolTip": "GLMS.Web\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-08T16:59:03.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "GLMS.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Dockerfile",
+              "RelativeToolTip": "GLMS.Api\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-08T16:58:34.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WorkflowLogicTests.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Tests\\WorkflowLogicTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\WorkflowLogicTests.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\WorkflowLogicTests.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Tests\\WorkflowLogicTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\WorkflowLogicTests.cs",
               "RelativeToolTip": "GLMS.Tests\\WorkflowLogicTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:51:08.604Z",
+              "WhenOpened": "2026-06-08T16:54:30.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\FileValidationTests.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\FileValidationTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\FileValidationTests.cs",
+              "RelativeToolTip": "GLMS.Tests\\FileValidationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:53:48.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrencyCalculationTests.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\CurrencyCalculationTests.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\CurrencyCalculationTests.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\CurrencyCalculationTests.cs",
+              "RelativeToolTip": "GLMS.Tests\\CurrencyCalculationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:52:52.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthApiTest.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\AuthApiTest.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\AuthApiTest.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\AuthApiTest.cs",
+              "RelativeToolTip": "GLMS.Tests\\AuthApiTest.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:52:05.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientsApiTest.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ClientsApiTest.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\ClientsApiTest.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ClientsApiTest.cs",
+              "RelativeToolTip": "GLMS.Tests\\ClientsApiTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:49:01.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FileValidationTests.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Tests\\FileValidationTests.cs",
-              "RelativeDocumentMoniker": "GLMS.Tests\\FileValidationTests.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Tests\\FileValidationTests.cs",
-              "RelativeToolTip": "GLMS.Tests\\FileValidationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ContractsApiTest.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ContractsApiTest.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\ContractsApiTest.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ContractsApiTest.cs",
+              "RelativeToolTip": "GLMS.Tests\\ContractsApiTest.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:51:01.379Z",
+              "WhenOpened": "2026-06-08T16:47:31.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CurrencyCalculationTests.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Tests\\CurrencyCalculationTests.cs",
-              "RelativeDocumentMoniker": "GLMS.Tests\\CurrencyCalculationTests.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Tests\\CurrencyCalculationTests.cs",
-              "RelativeToolTip": "GLMS.Tests\\CurrencyCalculationTests.cs",
+              "DocumentIndex": 9,
+              "Title": "ServiceRequestApiTest.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ServiceRequestApiTest.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\ServiceRequestApiTest.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ServiceRequestApiTest.cs",
+              "RelativeToolTip": "GLMS.Tests\\ServiceRequestApiTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:50:40.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestAuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\TestAuthHelper.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\Infrastructure\\TestAuthHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\TestAuthHelper.cs",
+              "RelativeToolTip": "GLMS.Tests\\Infrastructure\\TestAuthHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:46:35.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestAuthHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\TestAuthHandler.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\Infrastructure\\TestAuthHandler.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\TestAuthHandler.cs",
+              "RelativeToolTip": "GLMS.Tests\\Infrastructure\\TestAuthHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:45:59.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GLMS.Tests",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\GLMS.Tests.csproj",
+              "RelativeDocumentMoniker": "GLMS.Tests\\GLMS.Tests.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\GLMS.Tests.csproj",
+              "RelativeToolTip": "GLMS.Tests\\GLMS.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T16:42:11.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GlmsWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
+              "RelativeToolTip": "GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
+              "ViewState": "AgIAAAoAAAAAMjMzM5MwwBAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:44:15.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Delete.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\ServiceRequests\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:35:32.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Details.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Details.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\ServiceRequests\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:35:11.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:34:50.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Index.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Index.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\ServiceRequests\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:34:27.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Delete.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Contracts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:33:56.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ContractsController.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\ContractsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ContractsController.cs",
+              "RelativeToolTip": "GLMS.Web\\Controllers\\ContractsController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwD4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:22:29.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Services\\FileService.cs",
+              "RelativeToolTip": "GLMS.Web\\Services\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:15:54.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Program.cs",
+              "RelativeToolTip": "GLMS.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:12:32.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Details.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Details.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Contracts\\Details.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswFwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:33:33.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Edit.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Contracts\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:33:00.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Create.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Create.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Contracts\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:32:26.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Index.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Index.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Contracts\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:31:55.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Delete.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Clients\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:31:29.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Details.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Details.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Clients\\Details.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswDQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:31:08.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Edit.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Clients\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswCYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:30:47.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Create.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Create.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Clients\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswCYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:30:26.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAABYAAACAzMzMzAwmwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:29:53.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:29:09.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:28:36.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:27:20.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:26:47.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:25:47.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswDMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:24:40.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "GLMS.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "GLMS.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T16:23:56.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ServiceRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ServiceRequestsController.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\ServiceRequestsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ServiceRequestsController.cs",
+              "RelativeToolTip": "GLMS.Web\\Controllers\\ServiceRequestsController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:23:07.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "GLMS.Web\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:22:06.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GLMS.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:21:23.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "GLMS.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:21:12.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ServiceRequestApiService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ServiceRequestApiService.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ServiceRequestApiService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ServiceRequestApiService.cs",
+              "RelativeToolTip": "GLMS.Web\\ApiServices\\ServiceRequestApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:19:49.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ContractApiService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ContractApiService.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ContractApiService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ContractApiService.cs",
+              "RelativeToolTip": "GLMS.Web\\ApiServices\\ContractApiService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:19:02.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ClientApiService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ClientApiService.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ClientApiService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ClientApiService.cs",
+              "RelativeToolTip": "GLMS.Web\\ApiServices\\ClientApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:18:19.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AuthApiServices.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\AuthApiServices.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\AuthApiServices.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\AuthApiServices.cs",
+              "RelativeToolTip": "GLMS.Web\\ApiServices\\AuthApiServices.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:17:42.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ApiService.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ApiService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ApiService.cs",
+              "RelativeToolTip": "GLMS.Web\\ApiServices\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:16:58.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateServiceRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\ServiceRequests\\CreateServiceRequestViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\ServiceRequests\\CreateServiceRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\ServiceRequests\\CreateServiceRequestViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\ServiceRequests\\CreateServiceRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:14:55.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ServiceRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\ServiceRequests\\ServiceRequestViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\ServiceRequests\\ServiceRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\ServiceRequests\\ServiceRequestViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\ServiceRequests\\ServiceRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:13:37.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UpdateContractStatusViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\UpdateContractStatusViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\UpdateContractStatusViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\UpdateContractStatusViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Contracts\\UpdateContractStatusViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:12:13.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ContractFilterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\ContractFilterViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\ContractFilterViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\ContractFilterViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Contracts\\ContractFilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:11:20.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CreateContractViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\CreateContractViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\CreateContractViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\CreateContractViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Contracts\\CreateContractViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:10:04.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ContractViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\ContractViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\ContractViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\ContractViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Contracts\\ContractViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAzczMzMw9wA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:08:41.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Clients\\CreateClientViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Clients\\CreateClientViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Clients\\CreateClientViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Clients\\CreateClientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:07:21.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Clients\\ClientViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Clients\\ClientViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Clients\\ClientViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Clients\\ClientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:06:26.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Auth\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Auth\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Auth\\LoginViewModel.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Auth\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:04:58.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Enums.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Enums.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Enums.cs",
+              "RelativeToolTip": "GLMS.Web\\ViewModels\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:03:21.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "GLMS.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Program.cs",
+              "RelativeToolTip": "GLMS.Web\\Program.cs",
+              "ViewState": "AgIAAAQAAACAmJmZmZkSwEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:01:54.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GLMS.Web\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\appsettings.Development.json",
+              "RelativeToolTip": "GLMS.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-08T16:01:25.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "GLMS.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\appsettings.json",
+              "RelativeToolTip": "GLMS.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-08T16:00:58.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GLMS.Api",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\GLMS.Api.csproj",
+              "RelativeDocumentMoniker": "GLMS.Api\\GLMS.Api.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\GLMS.Api.csproj",
+              "RelativeToolTip": "GLMS.Api\\GLMS.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T15:58:58.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GLMS.Web",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
+              "RelativeDocumentMoniker": "GLMS.Web\\GLMS.Web.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
+              "RelativeToolTip": "GLMS.Web\\GLMS.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-08T15:57:00.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "StandardContractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\StandardContractFactory.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Factories\\StandardContractFactory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\StandardContractFactory.cs",
+              "RelativeToolTip": "GLMS.Api\\Factories\\StandardContractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:53:30.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PremiumContractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\PremiumContractFactory.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Factories\\PremiumContractFactory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\PremiumContractFactory.cs",
+              "RelativeToolTip": "GLMS.Api\\Factories\\PremiumContractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:53:21.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IContractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\IContractFactory.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Factories\\IContractFactory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\IContractFactory.cs",
+              "RelativeToolTip": "GLMS.Api\\Factories\\IContractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:53:06.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ContractFactoryResolver.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\ContractFactoryResolver.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Factories\\ContractFactoryResolver.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\ContractFactoryResolver.cs",
+              "RelativeToolTip": "GLMS.Api\\Factories\\ContractFactoryResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:52:49.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IContractObserver.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\IContractObserver.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Observers\\IContractObserver.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\IContractObserver.cs",
+              "RelativeToolTip": "GLMS.Api\\Observers\\IContractObserver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:50:56.213Z",
+              "WhenOpened": "2026-06-08T15:52:45.569Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EmailNotificationObserver.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\EmailNotificationObserver.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Observers\\EmailNotificationObserver.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\EmailNotificationObserver.cs",
+              "RelativeToolTip": "GLMS.Api\\Observers\\EmailNotificationObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:52:43.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ContractSubject.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\ContractSubject.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Observers\\ContractSubject.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\ContractSubject.cs",
+              "RelativeToolTip": "GLMS.Api\\Observers\\ContractSubject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:52:42.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AuditLogObserver.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\AuditLogObserver.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Observers\\AuditLogObserver.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\AuditLogObserver.cs",
+              "RelativeToolTip": "GLMS.Api\\Observers\\AuditLogObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:52:40.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "EurToZarStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\EurToZarStrategy.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\EurToZarStrategy.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\EurToZarStrategy.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\EurToZarStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:52:12.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ICurrencyStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ICurrencyStrategy.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\ICurrencyStrategy.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ICurrencyStrategy.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\ICurrencyStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:51:56.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UsdToZarStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\UsdToZarStrategy.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\UsdToZarStrategy.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\UsdToZarStrategy.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\UsdToZarStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:51:42.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CurrencyContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\CurrencyContext.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\CurrencyContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\CurrencyContext.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\CurrencyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:47:27.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ContractService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ContractService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\ContractService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ContractService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\ContractService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:48:18.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ClientService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:47:01.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ExchangeRateController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ExchangeRateController.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ExchangeRateController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ExchangeRateController.cs",
+              "RelativeToolTip": "GLMS.Api\\Controllers\\ExchangeRateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:09:13.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ExchangeRateService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ExchangeRateService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\ExchangeRateService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ExchangeRateService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\ExchangeRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:50:25.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "GLMS.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\appsettings.json",
+              "RelativeToolTip": "GLMS.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-08T15:10:04.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ServiceRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ServiceRequestService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\ServiceRequestService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ServiceRequestService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\ServiceRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:49:15.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GLMS.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\appsettings.Development.json",
+              "RelativeToolTip": "GLMS.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-08T15:10:53.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "GLMS.Api\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:54:37.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ContractsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ContractsController.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ContractsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ContractsController.cs",
+              "RelativeToolTip": "GLMS.Api\\Controllers\\ContractsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:03:23.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ServiceRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ServiceRequestController.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ServiceRequestController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ServiceRequestController.cs",
+              "RelativeToolTip": "GLMS.Api\\Controllers\\ServiceRequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T15:00:48.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "GLMS.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:52:42.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IExchangeRateService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IExchangeRateService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IExchangeRateService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IExchangeRateService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\Interfaces\\IExchangeRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:46:15.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IServiceRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IServiceRequestService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IServiceRequestService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IServiceRequestService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\Interfaces\\IServiceRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:44:34.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IContractService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IContractService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IContractService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IContractService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\Interfaces\\IContractService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:43:03.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "GLMS.Api\\Services\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T14:42:07.521Z"
             }
           ]
         }

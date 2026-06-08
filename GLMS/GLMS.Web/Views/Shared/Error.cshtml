@@ -1,10 +1,10 @@
-@model GLMS.Web.Models.ErrorViewModel
 @{
     ViewData["Title"] = "Error";
 }
 
-<h2 class="text-danger">An error occurred.</h2>
-@if (Model.ShowRequestId)
-{
-    <p><strong>Request ID:</strong> @Model.RequestId</p>
-}
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+<p>
+    If the API is unreachable, please verify that <code>GLMS.API</code> is running and accessible.
+</p>

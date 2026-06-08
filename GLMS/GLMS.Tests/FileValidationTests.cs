@@ -1,62 +1,121 @@
-using GLMS.Web.Services;
-using Microsoft.AspNetCore.Http;
+using System;
+using System.IO;
+using System.Text;
+using System.Threading.Tasks;
+using GLMS.Api.Services;
 using Xunit;
 
-namespace GLMS.Tests
+namespace GLMS.Tests;
+
+public class FileValidationTests
 {
-    public class FileValidationTests
+    private readonly FileService _fileService;
+
+    public FileValidationTests()
     {
-        private static IFormFile MakeFormFile(string fileName, string contentType = "application/octet-stream")
-        {
-            var content = new byte[] { 0x25, 0x50, 0x44, 0x46 }; // %PDF magic bytes
-            var stream = new MemoryStream(content);
-            return new FormFile(stream, 0, content.Length, "file", fileName)
-            {
-                Headers = new HeaderDictionary(),
-                ContentType = contentType
-            };
-        }
+        _fileService = new FileService();
+    }
 
-        [Fact]
-        public void IsValidPdf_ValidPdfFile_ReturnsTrue()
-        {
-            var file = MakeFormFile("agreement.pdf", "application/pdf");
-            Assert.True(FileService.IsValidPdf(file));
-        }
+    [Fact]
+    public void IsValidPdf_ValidPdfHeader_ReturnsTrue()
+    {
+        // Arrange
+        var pdfContent = "%PDF-1.4\n%âãÏÓ\nThis is a minimal PDF file content";
+        var stream = new MemoryStream(Encoding.UTF8.GetBytes(pdfContent));
 
-        [Fact]
-        public void IsValidPdf_ExeFile_ReturnsFalse()
-        {
-            var file = MakeFormFile("malware.exe", "application/octet-stream");
-            Assert.False(FileService.IsValidPdf(file));
-        }
+        // Act
+        var result = _fileService.IsValidPdf(stream);
 
-        [Fact]
-        public void IsValidPdf_DocxFile_ReturnsFalse()
-        {
-            var file = MakeFormFile("contract.docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-            Assert.False(FileService.IsValidPdf(file));
-        }
+        // Assert
+        Assert.True(result);
+    }
 
-        [Fact]
-        public void IsValidPdf_NullFile_ReturnsFalse()
-        {
-            Assert.False(FileService.IsValidPdf(null));
-        }
+    [Fact]
+    public void IsValidPdf_InvalidHeader_ReturnsFalse()
+    {
+        // Arrange
+        var textContent = "This is just a text file, not a PDF";
+        var stream = new MemoryStream(Encoding.UTF8.GetBytes(textContent));
 
-        [Fact]
-        public void IsValidPdf_EmptyFile_ReturnsFalse()
-        {
-            var stream = new MemoryStream(Array.Empty<byte>());
-            var file = new FormFile(stream, 0, 0, "file", "empty.pdf");
-            Assert.False(FileService.IsValidPdf(file));
-        }
+        // Act
+        var result = _fileService.IsValidPdf(stream);
 
-        [Fact]
-        public void IsValidPdf_PdfExtensionUpperCase_ReturnsTrue()
-        {
-            var file = MakeFormFile("AGREEMENT.PDF", "application/pdf");
-            Assert.True(FileService.IsValidPdf(file));
-        }
+        // Assert
+        Assert.False(result);
+    }
+
+    [Fact]
+    public void IsValidPdf_EmptyStream_ReturnsFalse()
+    {
+        // Arrange
+        var stream = new MemoryStream();
+
+        // Act
+        var result = _fileService.IsValidPdf(stream);
+
+        // Assert
+        Assert.False(result);
+    }
+
+    [Fact]
+    public void IsValidPdf_NullStream_ThrowsArgumentNullException()
+    {
+        // Act & Assert
+        Assert.Throws<ArgumentNullException>(() => _fileService.IsValidPdf(null!));
+    }
+
+    [Fact]
+    public void ValidateFileSize_WithinLimit_ReturnsTrue()
+    {
+        // Arrange
+        long fileSizeInBytes = 5 * 1024 * 1024; // 5 MB
+        long maxSizeInBytes = 10 * 1024 * 1024; // 10 MB
+
+        // Act
+        var result = _fileService.ValidateFileSize(fileSizeInBytes, maxSizeInBytes);
+
+        // Assert
+        Assert.True(result);
+    }
+
+    [Fact]
+    public void ValidateFileSize_ExceedsLimit_ReturnsFalse()
+    {
+        // Arrange
+        long fileSizeInBytes = 15 * 1024 * 1024; // 15 MB
+        long maxSizeInBytes = 10 * 1024 * 1024; // 10 MB
+
+        // Act
+        var result = _fileService.ValidateFileSize(fileSizeInBytes, maxSizeInBytes);
+
+        // Assert
+        Assert.False(result);
+    }
+
+    [Fact]
+    public void ValidateFileSize_ExactlyAtLimit_ReturnsTrue()
+    {
+        // Arrange
+        long maxSizeInBytes = 10 * 1024 * 1024; // 10 MB
+
+        // Act
+        var result = _fileService.ValidateFileSize(maxSizeInBytes, maxSizeInBytes);
+
+        // Assert
+        Assert.True(result);
+    }
+
+    [Fact]
+    public void ValidateFileSize_NegativeSize_ReturnsFalse()
+    {
+        // Arrange
+        long fileSizeInBytes = -1;
+        long maxSizeInBytes = 10 * 1024 * 1024;
+
+        // Act
+        var result = _fileService.ValidateFileSize(fileSizeInBytes, maxSizeInBytes);
+
+        // Assert
+        Assert.False(result);
     }
 }

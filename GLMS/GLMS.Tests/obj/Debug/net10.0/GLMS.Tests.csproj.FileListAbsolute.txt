@@ -292,3 +292,11 @@ C:\Users\lab_services_student\Desktop\prog7311-part-2-submission-slot-2-ST104505
 C:\Users\lab_services_student\Desktop\prog7311-part-2-submission-slot-2-ST10450570-1\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.pdb
 C:\Users\lab_services_student\Desktop\prog7311-part-2-submission-slot-2-ST10450570-1\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.genruntimeconfig.cache
 C:\Users\lab_services_student\Desktop\prog7311-part-2-submission-slot-2-ST10450570-1\GLMS\GLMS.Tests\obj\Debug\net10.0\ref\GLMS.Tests.dll
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_GLMS.Tests
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\MvcTestingAppManifest.json
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.AssemblyInfo.cs
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.sourcelink.json

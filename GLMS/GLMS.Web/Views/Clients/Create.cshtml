@@ -1,32 +1,39 @@
-@model GLMS.Web.Models.Client
+@model GLMS.Web.ViewModels.Clients.CreateClientViewModel
+
 @{
-    ViewData["Title"] = "New Client";
+    ViewData["Title"] = "Create Client";
 }
 
-<h3>New Client</h3>
+<h2>Create Client</h2>
 <hr />
-
-<form asp-action="Create" method="post" class="col-md-6">
-    <div asp-validation-summary="ModelOnly" class="alert alert-danger d-none"></div>
-
-    <div class="mb-3">
-        <label asp-for="Name" class="form-label"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ContactEmail" class="form-label"></label>
+                <input asp-for="ContactEmail" class="form-control" />
+                <span asp-validation-for="ContactEmail" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ContactPhone" class="form-label"></label>
+                <input asp-for="ContactPhone" class="form-control" />
+                <span asp-validation-for="ContactPhone" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Region" class="form-label"></label>
+                <input asp-for="Region" class="form-control" />
+                <span asp-validation-for="Region" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
     </div>
-    <div class="mb-3">
-        <label asp-for="ContactEmail" class="form-label"></label>
-        <input asp-for="ContactEmail" class="form-control" />
-    </div>
-    <div class="mb-3">
-        <label asp-for="ContactPhone" class="form-label"></label>
-        <input asp-for="ContactPhone" class="form-control" />
-    </div>
-    <div class="mb-3">
-        <label asp-for="Region" class="form-label"></label>
-        <input asp-for="Region" class="form-control" />
-    </div>
-
-    <button type="submit" class="btn btn-primary">Save</button>
-    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
-</form>
+</div>

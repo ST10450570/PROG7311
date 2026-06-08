@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5pLMfV/PMU=",
+  "dgSpecHash": "K39pvezbqkQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
+  "projectFilePath": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lab_services_student\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\lab_services_student\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

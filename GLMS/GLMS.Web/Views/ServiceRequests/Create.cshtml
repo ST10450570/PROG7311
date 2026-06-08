@@ -1,53 +1,68 @@
-@model GLMS.Web.ViewModels.CreateServiceRequestViewModel
+@model GLMS.Web.ViewModels.ServiceRequests.CreateServiceRequestViewModel
+
 @{
-    ViewData["Title"] = "New Service Request";
-    var rate = (decimal)ViewBag.ExchangeRate;
+    ViewData["Title"] = "Create Service Request";
 }
 
-<h3>New Service Request</h3>
-<p class="text-muted">Live exchange rate: <strong>1 USD = @rate.ToString("N4") ZAR</strong></p>
+<h2>Create Service Request</h2>
 <hr />
-
-<form asp-action="Create" method="post" class="col-md-6">
-    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
-
-    <input type="hidden" asp-for="ExchangeRate" id="exchangeRate" value="@rate" />
-
-    <div class="mb-3">
-        <label asp-for="ContractId" class="form-label">Contract (Active only)</label>
-        <select asp-for="ContractId" asp-items="ViewBag.Contracts" class="form-select">
-            <option value="">— Select Contract —</option>
-        </select>
-        <span asp-validation-for="ContractId" class="text-danger small"></span>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="ContractId" class="form-label"></label>
+                <select asp-for="ContractId" asp-items="ViewBag.ActiveContracts" class="form-select">
+                    <option value="">-- Select Active Contract --</option>
+                </select>
+                <span asp-validation-for="ContractId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ExchangeRate" class="form-label"></label>
+                <input asp-for="ExchangeRate" class="form-control bg-light" id="ExchangeRate" readonly />
+                <small class="text-muted">Live exchange rate fetched from API.</small>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CostUsd" class="form-label"></label>
+                <div class="input-group">
+                    <span class="input-group-text">$</span>
+                    <input asp-for="CostUsd" class="form-control" id="CostUsd" type="number" step="0.01" />
+                </div>
+                <span asp-validation-for="CostUsd" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CostZar" class="form-label"></label>
+                <div class="input-group">
+                    <span class="input-group-text">R</span>
+                    <input asp-for="CostZar" class="form-control bg-light" id="CostZar" readonly />
+                </div>
+                <small class="text-muted">Calculated dynamically.</small>
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
     </div>
-    <div class="mb-3">
-        <label asp-for="Description" class="form-label"></label>
-        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
-        <span asp-validation-for="Description" class="text-danger small"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="CostUsd" class="form-label">Cost (USD)</label>
-        <input asp-for="CostUsd" id="costUsd" type="number" step="0.01" min="0" class="form-control" />
-        <span asp-validation-for="CostUsd" class="text-danger small"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label">Estimated Cost (ZAR)</label>
-        <input id="costZarDisplay" type="text" class="form-control" readonly value="0.00" />
-    </div>
-
-    <button type="submit" class="btn btn-warning">Submit Request</button>
-    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
-</form>
+</div>
 
 @section Scripts {
     <script>
-        const rate = parseFloat(document.getElementById('exchangeRate').value);
-        const usdInput = document.getElementById('costUsd');
-        const zarDisplay = document.getElementById('costZarDisplay');
+        document.addEventListener("DOMContentLoaded", function () {
+            const usdInput = document.getElementById("CostUsd");
+            const zarOutput = document.getElementById("CostZar");
+            const rateInput = document.getElementById("ExchangeRate");
 
-        usdInput.addEventListener('input', () => {
-            const usd = parseFloat(usdInput.value) || 0;
-            zarDisplay.value = (usd * rate).toFixed(2);
+            usdInput.addEventListener("input", function () {
+                const usd = parseFloat(usdInput.value) || 0;
+                const rate = parseFloat(rateInput.value) || 0;
+                zarOutput.value = (usd * rate).toFixed(2);
+            });
         });
     </script>
 }

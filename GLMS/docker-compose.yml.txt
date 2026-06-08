@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  glms-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: glms-db
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "GLMSDocker@2026"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    volumes:
+      - glms-db-data:/var/opt/mssql
+    networks:
+      - glms-network
+    healthcheck:
+      test: /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "GLMSDocker@2026" -C -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
+  glms-api:
+    build:
+      context: ./GLMS.API
+      dockerfile: Dockerfile
+    container_name: glms-api
+    depends_on:
+      glms-db:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__GLMS: Server=glms-db,1433;Database=GLMSDb;User Id=sa;Password=GLMSDocker@2026;TrustServerCertificate=True;MultipleActiveResultSets=true
+      Jwt__Key: GLMS_TechMove_JWT_Secret_2026_SuperSecure_Key!
+      Jwt__Issuer: GLMS.API
+      Jwt__Audience: GLMS.Web
+      AdminCredentials__Username: admin
+      AdminCredentials__Password: Admin@123
+    ports:
+      - "7100:8080"
+    networks:
+      - glms-network
+    restart: unless-stopped
+
+  glms-web:
+    build:
+      context: ./GLMS.Web
+      dockerfile: Dockerfile
+    container_name: glms-web
+    depends_on:
+      - glms-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ApiSettings__BaseUrl: http://glms-api:8080
+      Jwt__Key: GLMS_TechMove_JWT_Secret_2026_SuperSecure_Key!
+      Jwt__Issuer: GLMS.API
+      Jwt__Audience: GLMS.Web
+    ports:
+      - "7000:8080"
+    networks:
+      - glms-network
+    restart: unless-stopped
+
+networks:
+  glms-network:
+    driver: bridge
+
+volumes:
+  glms-db-data:

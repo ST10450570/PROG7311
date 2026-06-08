@@ -1,23 +1,33 @@
-@model GLMS.Web.Models.Client
+@model GLMS.Web.ViewModels.Clients.ClientViewModel
+
 @{
     ViewData["Title"] = "Client Details";
 }
 
-<h3>@Model.Name</h3>
-<hr />
-<dl class="row">
-    <dt class="col-sm-3">Email</dt><dd class="col-sm-9">@Model.ContactEmail</dd>
-    <dt class="col-sm-3">Phone</dt><dd class="col-sm-9">@Model.ContactPhone</dd>
-    <dt class="col-sm-3">Region</dt><dd class="col-sm-9">@Model.Region</dd>
-</dl>
+<h2>Client Details</h2>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.ContactEmail</dd>
+        <dt class="col-sm-2">Phone</dt>
+        <dd class="col-sm-10">@Model.ContactPhone</dd>
+        <dt class="col-sm-2">Region</dt>
+        <dd class="col-sm-10">@Model.Region</dd>
+    </dl>
+</div>
 
-<h5 class="mt-4">Contracts</h5>
+<h4>Associated Contracts</h4>
 @if (Model.Contracts.Any())
 {
-    <table class="table table-sm table-bordered">
-        <thead class="table-secondary">
+    <table class="table table-bordered">
+        <thead>
             <tr>
-                <th>#</th><th>Start</th><th>End</th><th>Status</th><th>Level</th><th></th>
+                <th>Contract ID</th>
+                <th>Status</th>
+                <th>Service Level</th>
             </tr>
         </thead>
         <tbody>
@@ -25,11 +35,8 @@
             {
                 <tr>
                     <td>@c.Id</td>
-                    <td>@c.StartDate.ToShortDateString()</td>
-                    <td>@c.EndDate.ToShortDateString()</td>
                     <td>@c.Status</td>
                     <td>@c.ServiceLevel</td>
-                    <td><a asp-controller="Contracts" asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-info">View</a></td>
                 </tr>
             }
         </tbody>
@@ -37,7 +44,10 @@
 }
 else
 {
-    <p class="text-muted">No contracts yet.</p>
+    <p>No contracts found for this client.</p>
 }
 
-<a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
