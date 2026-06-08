@@ -1,0 +1,85 @@
+@model GLMS.Web.ViewModels.ContractFilterViewModel
+@{
+    ViewData["Title"] = "Contracts";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Contracts</h3>
+    <a asp-action="Create" class="btn btn-success">+ New Contract</a>
+</div>
+
+<form asp-action="Index" method="get" class="row g-2 mb-4 p-3 bg-light border rounded">
+    <div class="col-md-3">
+        <label class="form-label">Start Date From</label>
+        <input type="date" name="StartDateFrom" class="form-control"
+               value="@(Model.StartDateFrom?.ToString("yyyy-MM-dd"))" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Start Date To</label>
+        <input type="date" name="StartDateTo" class="form-control"
+               value="@(Model.StartDateTo?.ToString("yyyy-MM-dd"))" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Status</label>
+        <select name="Status" class="form-select">
+            <option value="">— All —</option>
+            @foreach (var s in Enum.GetValues<GLMS.Web.Models.ContractStatus>())
+            {
+                <option value="@s" selected="@(Model.Status == s)">@s</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-3 d-flex align-items-end gap-2">
+        <button type="submit" class="btn btn-primary">Filter</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Reset</a>
+    </div>
+</form>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>Client</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Status</th>
+            <th>Level</th>
+            <th>Agreement</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model.Results)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Client?.Name</td>
+                <td>@c.StartDate.ToShortDateString()</td>
+                <td>@c.EndDate.ToShortDateString()</td>
+                <td>
+                    <span class="badge @(c.Status == GLMS.Web.Models.ContractStatus.Active ? "bg-success" :
+                                          c.Status == GLMS.Web.Models.ContractStatus.Expired ? "bg-danger" :
+                                          c.Status == GLMS.Web.Models.ContractStatus.OnHold ? "bg-warning text-dark" : "bg-secondary")">
+                        @c.Status
+                    </span>
+                </td>
+                <td>@c.ServiceLevel</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(c.SignedAgreementPath))
+                    {
+                        <a asp-action="Download" asp-route-id="@c.Id" class="btn btn-sm btn-outline-primary">Download PDF</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">None</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@c.Id" class="btn btn-sm btn-secondary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@c.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

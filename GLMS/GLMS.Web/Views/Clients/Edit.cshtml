@@ -1,0 +1,32 @@
+@model GLMS.Web.Models.Client
+@{
+    ViewData["Title"] = "Edit Client";
+}
+
+<h3>Edit Client</h3>
+<hr />
+
+<form asp-action="Edit" method="post" class="col-md-6">
+    <input type="hidden" asp-for="Id" />
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ContactEmail" class="form-label"></label>
+        <input asp-for="ContactEmail" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="ContactPhone" class="form-label"></label>
+        <input asp-for="ContactPhone" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Region" class="form-label"></label>
+        <input asp-for="Region" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+</form>

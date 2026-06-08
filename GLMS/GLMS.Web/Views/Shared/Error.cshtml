@@ -1,0 +1,10 @@
+@model GLMS.Web.Models.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2 class="text-danger">An error occurred.</h2>
+@if (Model.ShowRequestId)
+{
+    <p><strong>Request ID:</strong> @Model.RequestId</p>
+}

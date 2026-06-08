@@ -1,0 +1,66 @@
+@model GLMS.Web.Models.Contract
+@{
+    ViewData["Title"] = "Contract Details";
+}
+
+<h3>Contract #@Model.Id</h3>
+<hr />
+<dl class="row">
+    <dt class="col-sm-3">Client</dt><dd class="col-sm-9">@Model.Client?.Name</dd>
+    <dt class="col-sm-3">Service Level</dt><dd class="col-sm-9">@Model.ServiceLevel</dd>
+    <dt class="col-sm-3">Status</dt>
+    <dd class="col-sm-9">
+        <span class="badge @(Model.Status == GLMS.Web.Models.ContractStatus.Active ? "bg-success" :
+                              Model.Status == GLMS.Web.Models.ContractStatus.Expired ? "bg-danger" :
+                              Model.Status == GLMS.Web.Models.ContractStatus.OnHold ? "bg-warning text-dark" : "bg-secondary")">
+            @Model.Status
+        </span>
+    </dd>
+    <dt class="col-sm-3">Start Date</dt><dd class="col-sm-9">@Model.StartDate.ToShortDateString()</dd>
+    <dt class="col-sm-3">End Date</dt><dd class="col-sm-9">@Model.EndDate.ToShortDateString()</dd>
+    <dt class="col-sm-3">Signed Agreement</dt>
+    <dd class="col-sm-9">
+        @if (!string.IsNullOrEmpty(Model.SignedAgreementPath))
+        {
+            <a asp-action="Download" asp-route-id="@Model.Id" class="btn btn-sm btn-outline-primary">Download PDF</a>
+        }
+        else
+        {
+            <span class="text-muted">Not uploaded</span>
+        }
+    </dd>
+</dl>
+
+<h5 class="mt-4">Service Requests</h5>
+@if (Model.ServiceRequests.Any())
+{
+    <table class="table table-sm table-bordered">
+        <thead class="table-secondary">
+            <tr><th>#</th><th>Description</th><th>USD</th><th>ZAR</th><th>Status</th><th></th></tr>
+        </thead>
+        <tbody>
+            @foreach (var sr in Model.ServiceRequests)
+            {
+                <tr>
+                    <td>@sr.Id</td>
+                    <td>@sr.Description</td>
+                    <td>@sr.CostUsd.ToString("N2")</td>
+                    <td>@sr.CostZar.ToString("N2")</td>
+                    <td>@sr.Status</td>
+                    <td><a asp-controller="ServiceRequests" asp-action="Details" asp-route-id="@sr.Id" class="btn btn-sm btn-info">View</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">No service requests yet.</p>
+}
+
+@if (Model.Status == GLMS.Web.Models.ContractStatus.Active)
+{
+    <a asp-controller="ServiceRequests" asp-action="Create" asp-route-contractId="@Model.Id" class="btn btn-warning mt-2">+ New Service Request</a>
+}
+
+<a asp-action="Index" class="btn btn-secondary mt-3 ms-2">Back</a>

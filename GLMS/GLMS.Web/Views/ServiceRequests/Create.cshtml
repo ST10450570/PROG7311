@@ -1,0 +1,53 @@
+@model GLMS.Web.ViewModels.CreateServiceRequestViewModel
+@{
+    ViewData["Title"] = "New Service Request";
+    var rate = (decimal)ViewBag.ExchangeRate;
+}
+
+<h3>New Service Request</h3>
+<p class="text-muted">Live exchange rate: <strong>1 USD = @rate.ToString("N4") ZAR</strong></p>
+<hr />
+
+<form asp-action="Create" method="post" class="col-md-6">
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+    <input type="hidden" asp-for="ExchangeRate" id="exchangeRate" value="@rate" />
+
+    <div class="mb-3">
+        <label asp-for="ContractId" class="form-label">Contract (Active only)</label>
+        <select asp-for="ContractId" asp-items="ViewBag.Contracts" class="form-select">
+            <option value="">— Select Contract —</option>
+        </select>
+        <span asp-validation-for="ContractId" class="text-danger small"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Description" class="text-danger small"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CostUsd" class="form-label">Cost (USD)</label>
+        <input asp-for="CostUsd" id="costUsd" type="number" step="0.01" min="0" class="form-control" />
+        <span asp-validation-for="CostUsd" class="text-danger small"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Estimated Cost (ZAR)</label>
+        <input id="costZarDisplay" type="text" class="form-control" readonly value="0.00" />
+    </div>
+
+    <button type="submit" class="btn btn-warning">Submit Request</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+</form>
+
+@section Scripts {
+    <script>
+        const rate = parseFloat(document.getElementById('exchangeRate').value);
+        const usdInput = document.getElementById('costUsd');
+        const zarDisplay = document.getElementById('costZarDisplay');
+
+        usdInput.addEventListener('input', () => {
+            const usd = parseFloat(usdInput.value) || 0;
+            zarDisplay.value = (usd * rate).toFixed(2);
+        });
+    </script>
+}

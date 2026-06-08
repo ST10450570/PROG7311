@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\observers\\auditlogobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:observers\\auditlogobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\audit.log||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:audit.log||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\factories\\standardcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:factories\\standardcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\factories\\premiumcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:factories\\premiumcontractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\factories\\contractfactoryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:factories\\contractfactoryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\services\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:services\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\services\\eurtozarstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:services\\eurtozarstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\services\\currencycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:services\\currencycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\views\\servicerequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:views\\servicerequests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\prog7311-part-2-submission-slot-2-st10450570-1\\glms\\glms.web\\viewmodels\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A926317-5436-8A25-2227-B123CA9BFA56}|GLMS.Web.csproj|solutionrelative:viewmodels\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuditLogObserver.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Observers\\AuditLogObserver.cs",
+              "RelativeDocumentMoniker": "Observers\\AuditLogObserver.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Observers\\AuditLogObserver.cs",
+              "RelativeToolTip": "Observers\\AuditLogObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T18:12:45.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "audit.log",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\audit.log",
+              "RelativeDocumentMoniker": "audit.log",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\audit.log",
+              "RelativeToolTip": "audit.log",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-22T18:12:36.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T17:10:04.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StandardContractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Factories\\StandardContractFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\StandardContractFactory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Factories\\StandardContractFactory.cs",
+              "RelativeToolTip": "Factories\\StandardContractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T17:07:07.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Controllers\\ServiceRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiceRequestsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Controllers\\ServiceRequestsController.cs",
+              "RelativeToolTip": "Controllers\\ServiceRequestsController.cs",
+              "ViewState": "AgIAACQAAADAm5mZmZktwDUAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:29:42.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PremiumContractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Factories\\PremiumContractFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\PremiumContractFactory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Factories\\PremiumContractFactory.cs",
+              "RelativeToolTip": "Factories\\PremiumContractFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T17:07:04.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContractFactoryResolver.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Factories\\ContractFactoryResolver.cs",
+              "RelativeDocumentMoniker": "Factories\\ContractFactoryResolver.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Factories\\ContractFactoryResolver.cs",
+              "RelativeToolTip": "Factories\\ContractFactoryResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T17:07:01.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\ViewModels\\ViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModels.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\ViewModels\\ViewModels.cs",
+              "RelativeToolTip": "ViewModels\\ViewModels.cs",
+              "ViewState": "AgIAABQAAADgzMzMzIwnwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:28:26.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExchangeRateService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Services\\ExchangeRateService.cs",
+              "RelativeDocumentMoniker": "Services\\ExchangeRateService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Services\\ExchangeRateService.cs",
+              "RelativeToolTip": "Services\\ExchangeRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:25:32.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CurrencyContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Services\\CurrencyContext.cs",
+              "RelativeDocumentMoniker": "Services\\CurrencyContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Services\\CurrencyContext.cs",
+              "RelativeToolTip": "Services\\CurrencyContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:53:57.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EurToZarStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Services\\EurToZarStrategy.cs",
+              "RelativeDocumentMoniker": "Services\\EurToZarStrategy.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Services\\EurToZarStrategy.cs",
+              "RelativeToolTip": "Services\\EurToZarStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:53:46.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ServiceRequests\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\prog7311-part-2-submission-slot-2-ST10450570-1\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
+              "RelativeToolTip": "Views\\ServiceRequests\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T16:32:13.49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

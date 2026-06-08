@@ -1,0 +1,13 @@
+@model GLMS.Web.Models.ServiceRequest
+@{
+    ViewData["Title"] = "Delete Service Request";
+}
+
+<h3 class="text-danger">Delete Service Request #@Model.Id</h3>
+<p>Are you sure you want to delete the request: <strong>@Model.Description</strong>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+</form>
