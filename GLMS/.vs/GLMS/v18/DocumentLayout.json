@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Migrations\\20260608191320_FirstRun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GLMS.Api\\Migrations\\20260608191320_FirstRun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{984FB6BC-638E-41B1-9E50-33CF5A5B424C}|GLMS.Api\\GLMS.Api.csproj|solutionrelative:glms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Migrations\\20260608190033_IntialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GLMS.Api\\Migrations\\20260608190033_IntialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|GLMS.Web\\GLMS.Web.csproj|c:\\users\\lab_services_student\\desktop\\gr3-poe-submission-st10450570\\glms\\glms.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -426,24 +434,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Program.cs",
-              "RelativeDocumentMoniker": "GLMS.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Program.cs",
-              "RelativeToolTip": "GLMS.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20260608191320_FirstRun.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Migrations\\20260608191320_FirstRun.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Migrations\\20260608191320_FirstRun.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Migrations\\20260608191320_FirstRun.cs",
+              "RelativeToolTip": "GLMS.Api\\Migrations\\20260608191320_FirstRun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T17:21:28.37Z",
+              "WhenOpened": "2026-06-08T19:13:20.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "20260608190033_IntialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Migrations\\20260608190033_IntialMigration.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Migrations\\20260608190033_IntialMigration.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Migrations\\20260608190033_IntialMigration.cs",
+              "RelativeToolTip": "GLMS.Api\\Migrations\\20260608190033_IntialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T19:00:33.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ClientsController.cs",
@@ -455,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ContractsController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ContractsController.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ContractsController.cs",
@@ -467,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GlmsWebApplicationFactory.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
@@ -475,12 +496,11 @@
               "RelativeToolTip": "GLMS.Tests\\Infrastructure\\GlmsWebApplicationFactory.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAowDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T17:27:19.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T17:27:19.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TestAuthHelper.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\TestAuthHelper.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\Infrastructure\\TestAuthHelper.cs",
@@ -492,20 +512,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\appsettings.json",
               "RelativeDocumentMoniker": "GLMS.Api\\appsettings.json",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\appsettings.json",
               "RelativeToolTip": "GLMS.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-08T17:30:35.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GLMS.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Program.cs",
+              "RelativeToolTip": "GLMS.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T17:21:28.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Data\\AppDbContext.cs",
@@ -517,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GLMS.Web.csproj",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\GLMS.Web.csproj",
               "RelativeDocumentMoniker": "GLMS.Web\\GLMS.Web.csproj",
@@ -525,12 +557,11 @@
               "RelativeToolTip": "GLMS.Web\\GLMS.Web.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-08T17:37:22.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T17:37:22.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\appsettings.json",
               "RelativeDocumentMoniker": "GLMS.Web\\appsettings.json",
@@ -538,12 +569,11 @@
               "RelativeToolTip": "GLMS.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-08T17:24:25.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T17:24:25.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GLMS.Api.csproj",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\GLMS.Api.csproj",
               "RelativeDocumentMoniker": "GLMS.Api\\GLMS.Api.csproj",
@@ -551,25 +581,23 @@
               "RelativeToolTip": "GLMS.Api\\GLMS.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwBwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-08T18:06:10.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T18:06:10.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GLMS.Tests",
+              "DocumentIndex": 6,
+              "Title": "GLMS.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\GLMS.Tests.csproj",
               "RelativeDocumentMoniker": "GLMS.Tests\\GLMS.Tests.csproj",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\GLMS.Tests.csproj",
               "RelativeToolTip": "GLMS.Tests\\GLMS.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-08T18:41:59.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T18:41:59.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ServiceRequestController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ServiceRequestController.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ServiceRequestController.cs",
@@ -581,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\FileService.cs",
@@ -593,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "UsdToZarStrategy.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\UsdToZarStrategy.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\UsdToZarStrategy.cs",
@@ -605,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "PremiumCurrencyStrategy.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\PremiumCurrencyStrategy.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\PremiumCurrencyStrategy.cs",
@@ -617,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "StandardCurrencyStrategy.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\StandardCurrencyStrategy.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\StandardCurrencyStrategy.cs",
@@ -629,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "CreateContractDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\Contracts\\CreateContractDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\Contracts\\CreateContractDto.cs",
@@ -641,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EurToZarStrategy.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\EurToZarStrategy.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\EurToZarStrategy.cs",
@@ -653,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Dockerfile",
               "RelativeDocumentMoniker": "GLMS.Api\\Dockerfile",
@@ -665,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CurrencyContext.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\CurrencyContext.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\CurrencyContext.cs",
@@ -677,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ICurrencyStrategy.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ICurrencyStrategy.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\ICurrencyStrategy.cs",
@@ -689,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ServiceRequestService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ServiceRequestService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\ServiceRequestService.cs",
@@ -701,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ContractService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ContractService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\ContractService.cs",
@@ -713,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ClientService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\ClientService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\ClientService.cs",
@@ -725,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "IServiceRequestService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IServiceRequestService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IServiceRequestService.cs",
@@ -737,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IContractService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IContractService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IContractService.cs",
@@ -749,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IClientService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Services\\Interfaces\\IClientService.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Services\\Interfaces\\IClientService.cs",
@@ -761,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ServiceRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Repositories\\ServiceRequestRepository.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Repositories\\ServiceRequestRepository.cs",
@@ -773,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ContractRepository.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Repositories\\ContractRepository.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Repositories\\ContractRepository.cs",
@@ -785,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Repositories\\ClientRepository.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Repositories\\ClientRepository.cs",
@@ -797,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "IServiceRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Repositories\\Interfaces\\IServiceRequestRepository.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Repositories\\Interfaces\\IServiceRequestRepository.cs",
@@ -809,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IContractRepository.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Repositories\\Interfaces\\IContractRepository.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Repositories\\Interfaces\\IContractRepository.cs",
@@ -821,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Repositories\\Interfaces\\IClientRepository.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Repositories\\Interfaces\\IClientRepository.cs",
@@ -833,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "IContractObserver.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\IContractObserver.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Observers\\IContractObserver.cs",
@@ -845,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "EmailNotificationObserver.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\EmailNotificationObserver.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Observers\\EmailNotificationObserver.cs",
@@ -857,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "ContractSubject.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\ContractSubject.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Observers\\ContractSubject.cs",
@@ -869,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "AuditLogObserver.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Observers\\AuditLogObserver.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Observers\\AuditLogObserver.cs",
@@ -881,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "ServiceRequest.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Models\\ServiceRequest.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Models\\ServiceRequest.cs",
@@ -893,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Models\\ErrorViewModel.cs",
@@ -905,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Contract.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Models\\Contract.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Models\\Contract.cs",
@@ -917,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Models\\Client.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Models\\Client.cs",
@@ -929,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "StandardContractFactory.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\StandardContractFactory.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Factories\\StandardContractFactory.cs",
@@ -941,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "PremiumContractFactory.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\PremiumContractFactory.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Factories\\PremiumContractFactory.cs",
@@ -953,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "IContractFactory.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\IContractFactory.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Factories\\IContractFactory.cs",
@@ -965,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "ContractFactoryResolver.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Factories\\ContractFactoryResolver.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Factories\\ContractFactoryResolver.cs",
@@ -977,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "ServiceRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\ServiceRequests\\ServiceRequestDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\ServiceRequests\\ServiceRequestDto.cs",
@@ -989,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "CreateServiceRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\ServiceRequests\\CreateServiceRequestDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\ServiceRequests\\CreateServiceRequestDto.cs",
@@ -1001,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "UpdateContractStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\Contracts\\UpdateContractStatusDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\Contracts\\UpdateContractStatusDto.cs",
@@ -1013,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "CreateClientDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\Clients\\CreateClientDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\Clients\\CreateClientDto.cs",
@@ -1025,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "ClientDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\Clients\\ClientDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\Clients\\ClientDto.cs",
@@ -1037,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\Auth\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\Auth\\LoginResponseDto.cs",
@@ -1049,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\DTOs\\Auth\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\DTOs\\Auth\\LoginRequestDto.cs",
@@ -1061,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "ExchangeRateController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\ExchangeRateController.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\ExchangeRateController.cs",
@@ -1073,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "GLMS.Api\\Controllers\\AuthController.cs",
@@ -1085,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "TestAuthHandler.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\Infrastructure\\TestAuthHandler.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\Infrastructure\\TestAuthHandler.cs",
@@ -1097,7 +1125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "AuthApiTest.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\AuthApiTest.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\AuthApiTest.cs",
@@ -1109,7 +1137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "ClientsApiTest.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ClientsApiTest.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\ClientsApiTest.cs",
@@ -1121,7 +1149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "ContractsApiTest.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ContractsApiTest.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\ContractsApiTest.cs",
@@ -1133,7 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "CurrencyCalculationTests.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\CurrencyCalculationTests.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\CurrencyCalculationTests.cs",
@@ -1145,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "FileValidationTests.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\FileValidationTests.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\FileValidationTests.cs",
@@ -1157,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "ServiceRequestApiTest.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\ServiceRequestApiTest.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\ServiceRequestApiTest.cs",
@@ -1169,7 +1197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "WorkflowLogicTests.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Tests\\WorkflowLogicTests.cs",
               "RelativeDocumentMoniker": "GLMS.Tests\\WorkflowLogicTests.cs",
@@ -1181,7 +1209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "ServiceRequestApiService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ServiceRequestApiService.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ServiceRequestApiService.cs",
@@ -1193,7 +1221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "ContractApiService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ContractApiService.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ContractApiService.cs",
@@ -1205,7 +1233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "ClientApiService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ClientApiService.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ClientApiService.cs",
@@ -1217,7 +1245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "AuthApiServices.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\AuthApiServices.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\AuthApiServices.cs",
@@ -1229,7 +1257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ApiServices\\ApiService.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ApiServices\\ApiService.cs",
@@ -1241,7 +1269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\HomeController.cs",
@@ -1253,7 +1281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "ServiceRequestsController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ServiceRequestsController.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\ServiceRequestsController.cs",
@@ -1265,7 +1293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "ContractsController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ContractsController.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\ContractsController.cs",
@@ -1277,7 +1305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\ClientsController.cs",
@@ -1289,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Controllers\\AuthController.cs",
@@ -1301,7 +1329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Services\\FileService.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Services\\FileService.cs",
@@ -1313,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Auth\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Auth\\LoginViewModel.cs",
@@ -1325,7 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "CreateClientViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Clients\\CreateClientViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Clients\\CreateClientViewModel.cs",
@@ -1337,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "ClientViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Clients\\ClientViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Clients\\ClientViewModel.cs",
@@ -1349,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "UpdateContractStatusViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\UpdateContractStatusViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\UpdateContractStatusViewModel.cs",
@@ -1361,7 +1389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "CreateContractViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\CreateContractViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\CreateContractViewModel.cs",
@@ -1373,7 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "ContractViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\ContractViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\ContractViewModel.cs",
@@ -1385,7 +1413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "ContractFilterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Contracts\\ContractFilterViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Contracts\\ContractFilterViewModel.cs",
@@ -1397,7 +1425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "ServiceRequestViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\ServiceRequests\\ServiceRequestViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\ServiceRequests\\ServiceRequestViewModel.cs",
@@ -1409,7 +1437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "CreateServiceRequestViewModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\ServiceRequests\\CreateServiceRequestViewModel.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\ServiceRequests\\CreateServiceRequestViewModel.cs",
@@ -1421,7 +1449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\ViewModels\\Enums.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\ViewModels\\Enums.cs",
@@ -1433,7 +1461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 85,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Auth\\Login.cshtml",
@@ -1445,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 86,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Index.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Index.cshtml",
@@ -1457,7 +1485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 87,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Edit.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Edit.cshtml",
@@ -1469,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 88,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Details.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Details.cshtml",
@@ -1481,7 +1509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 89,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Delete.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Delete.cshtml",
@@ -1493,7 +1521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 90,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Clients\\Create.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Clients\\Create.cshtml",
@@ -1505,7 +1533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Index.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Index.cshtml",
@@ -1517,7 +1545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 92,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Edit.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Edit.cshtml",
@@ -1529,7 +1557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 93,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Details.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Details.cshtml",
@@ -1541,7 +1569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 94,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Contracts\\Delete.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Contracts\\Delete.cshtml",
@@ -1553,7 +1581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 95,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Home\\Index.cshtml",
@@ -1565,7 +1593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 96,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\Home\\Privacy.cshtml",
@@ -1577,7 +1605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 97,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Create.cshtml",
@@ -1589,7 +1617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 98,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Delete.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Delete.cshtml",
@@ -1601,7 +1629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 99,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Details.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Details.cshtml",
@@ -1613,7 +1641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 100,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\ServiceRequests\\Index.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\ServiceRequests\\Index.cshtml",
@@ -1625,7 +1653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 101,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\_ViewImports.cshtml",
@@ -1637,7 +1665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 102,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "GLMS.Web\\Views\\_ViewStart.cshtml",
@@ -1649,7 +1677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 103,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\appsettings.Development.json",
               "RelativeDocumentMoniker": "GLMS.Web\\appsettings.Development.json",
@@ -1661,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 104,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Dockerfile",
               "RelativeDocumentMoniker": "GLMS.Web\\Dockerfile",
@@ -1673,7 +1701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 105,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\gr3-poe-submission-ST10450570\\GLMS\\GLMS.Web\\Program.cs",
               "RelativeDocumentMoniker": "GLMS.Web\\Program.cs",
