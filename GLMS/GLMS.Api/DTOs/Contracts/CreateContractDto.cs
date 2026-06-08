@@ -1,6 +1,5 @@
 ﻿using GLMS.Api.Models;
 
-
 namespace GLMS.Api.DTOs.Contracts
 {
     public class CreateContractDto
@@ -10,5 +9,6 @@ namespace GLMS.Api.DTOs.Contracts
         public DateTime EndDate { get; set; }
         public ContractStatus Status { get; set; }
         public ServiceLevel ServiceLevel { get; set; }
+        public string? SignedAgreementPath { get; set; }
     }
 }

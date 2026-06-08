@@ -1,29 +1,26 @@
-﻿using System.Net.Http;
+﻿using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net.Http.Headers;
+using System.Net.Http.Json;
+using System.Text.Json;
 
-namespace GLMS.Tests.Infrastructure;
-
-public static class TestAuthHelper
+namespace GLMS.Tests.Infrastructure
 {
-    /// <summary>
-    /// Creates an HttpClient with a test authorization header pre-configured.
-    /// The test auth handler in the factory will validate any request with this scheme.
-    /// </summary>
-    public static HttpClient GetAuthorizedClient(GlmsWebApplicationFactory factory)
+    public static class TestAuthHelper
     {
-        var client = factory.CreateClient();
-        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Test");
-        return client;
-    }
+        public static HttpClient GetAuthorizedClient(GlmsWebApplicationFactory factory)
+        {
+            var client = factory.CreateClient();
+            var loginResponse = client.PostAsJsonAsync("/api/auth/login", new { username = "admin", password = "Admin@123" }).Result;
+            var content = loginResponse.Content.ReadAsStringAsync().Result;
+            var json = JsonDocument.Parse(content);
+            var token = json.RootElement.GetProperty("token").GetString();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            return client;
+        }
 
-    /// <summary>
-    /// Creates an unauthenticated HttpClient for testing 401 responses.
-    /// </summary>
-    public static HttpClient GetUnauthorizedClient(GlmsWebApplicationFactory factory)
-    {
-        var client = factory.CreateClient();
-        // Ensure no auth header is present
-        client.DefaultRequestHeaders.Authorization = null;
-        return client;
+        public static HttpClient GetUnauthorizedClient(GlmsWebApplicationFactory factory)
+        {
+            return factory.CreateClient();
+        }
     }
 }

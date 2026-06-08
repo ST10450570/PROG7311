@@ -7,7 +7,6 @@ using GLMS.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text;
 
@@ -29,39 +28,8 @@ namespace GLMS.Api
             // 2. AddEndpointsApiExplorer
             builder.Services.AddEndpointsApiExplorer();
 
-            // 3. AddSwaggerGen with JWT bearer definition
-            builder.Services.AddSwaggerGen(options =>
-            {
-                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "GLMS API", Version = "v1" });
-
-                options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
-                {
-                    Name = "Authorization",
-                    Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
-                    Scheme = "Bearer",
-                    BearerFormat = "JWT",
-                    In = Microsoft.OpenApi.Models.ParameterLocation.Header,
-                    Description = "Enter 'Bearer' [space] and then your valid token in the text input below.\n\nExample: \"Bearer eyJhbG...\""
-                });
-
-                options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
-                {
-                    {
-                        new Microsoft.OpenApi.Models.OpenApiSecurityScheme
-                        {
-                            Reference = new Microsoft.OpenApi.Models.OpenApiReference
-                            {
-                                Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
-                                Id = "Bearer"
-                            }
-                        },
-                        Array.Empty<string>()
-                    }
-                });
-
-                var xmlFilename = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
-            });
+            // 3. AddOpenApi (for .NET 10)
+            builder.Services.AddOpenApi();
 
             // 4. AddDbContext
             var connectionString = Environment.GetEnvironmentVariable("GLMS_DOCKER_CONN")
@@ -71,10 +39,10 @@ namespace GLMS.Api
                 options.UseSqlServer(connectionString));
 
             // 5. AddAuthentication
-            builder.Services.AddAuthentication(Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
-                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                    options.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuer = true,
                         ValidateAudience = true,
@@ -82,7 +50,7 @@ namespace GLMS.Api
                         ValidateIssuerSigningKey = true,
                         ValidIssuer = builder.Configuration["Jwt:Issuer"],
                         ValidAudience = builder.Configuration["Jwt:Audience"],
-                        IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
                     };
                 });
 
@@ -121,18 +89,14 @@ namespace GLMS.Api
 
             // 10. Register ContractSubject as Singleton and attach observers
             var contractSubject = new ContractSubject();
-            contractSubject.Attach(new AuditLogObserver());
-            contractSubject.Attach(new EmailNotificationObserver());
+            contractSubject.Attach(new AuditLogObserver(Path.Combine(Directory.GetCurrentDirectory(), "audit.log")));
+            contractSubject.Attach(new EmailNotificationObserver("smtp.techmove.local"));
             builder.Services.AddSingleton(contractSubject);
 
             var app = builder.Build();
 
-            // 11. Use Swagger (both envs)
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "GLMS API v1");
-            });
+            // 11. MapOpenApi (for .NET 10)
+            app.MapOpenApi();
 
             // 12. UseHttpsRedirection
             app.UseHttpsRedirection();
