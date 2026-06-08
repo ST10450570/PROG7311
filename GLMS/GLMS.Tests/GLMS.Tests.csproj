@@ -15,14 +15,14 @@
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.0-preview.3.25171.1" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.0" />
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.7.0" />
 		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.7.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\GLMS.API\GLMS.API.csproj" />
+		<ProjectReference Include="..\GLMS.Api\GLMS.Api.csproj" />
 	</ItemGroup>
 
 </Project>
