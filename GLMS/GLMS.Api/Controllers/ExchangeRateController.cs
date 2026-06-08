@@ -1,7 +1,7 @@
 ﻿using GLMS.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GLMS.API.Controllers
+namespace GLMS.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -20,11 +20,21 @@ namespace GLMS.API.Controllers
             try
             {
                 var rate = await _exchangeRateService.GetUsdToZarRateAsync();
-                return Ok(new { Currency = "ZAR", Rate = rate, Base = "USD", Timestamp = DateTime.UtcNow });
+                return Ok(new
+                {
+                    Currency = "ZAR",
+                    Rate = rate,
+                    Base = "USD",
+                    Timestamp = DateTime.UtcNow
+                });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { Message = "Failed to retrieve exchange rate", Details = ex.Message });
+                return StatusCode(500, new
+                {
+                    Message = "Failed to retrieve exchange rate",
+                    Details = ex.Message
+                });
             }
         }
     }

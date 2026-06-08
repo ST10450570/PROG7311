@@ -1,27 +1,29 @@
-# Build stage
+# Stage 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
-# Copy project file and restore dependencies (layer caching)
-COPY GLMS.API.csproj .
-RUN dotnet restore "GLMS.API.csproj"
+# Copy nuget config first to avoid Windows fallback path issues
+COPY nuget.config .
 
-# Copy the rest of the source
+# Copy project file and restore
+COPY GLMS.Api.csproj .
+RUN dotnet restore "GLMS.Api.csproj"
+
+# Copy all source files
 COPY . .
 
-# Publish the application
-RUN dotnet publish "GLMS.API.csproj" -c Release -o /app/publish --no-restore
+# Publish
+RUN dotnet publish "GLMS.Api.csproj" -c Release -o /app/publish --no-restore
 
-# Runtime stage
+# Stage 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 
-# Create uploads directory (used by the application)
 RUN mkdir -p /app/wwwroot/uploads
+RUN touch /app/audit.log
 
-# Copy published output from build stage
 COPY --from=build /app/publish .
 
 EXPOSE 8080
-
-ENTRYPOINT ["dotnet", "GLMS.API.dll"]
+ENV ASPNETCORE_URLS=http://+:8080
+ENTRYPOINT ["dotnet", "GLMS.Api.dll"]

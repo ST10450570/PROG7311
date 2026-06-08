@@ -806,3 +806,4 @@ C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Te
 C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.pdb
 C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\GLMS.Tests.genruntimeconfig.cache
 C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\obj\Debug\net10.0\ref\GLMS.Tests.dll
+C:\Users\lab_services_student\Desktop\gr3-poe-submission-ST10450570\GLMS\GLMS.Tests\bin\Debug\net10.0\GLMS.Api.staticwebassets.runtime.json

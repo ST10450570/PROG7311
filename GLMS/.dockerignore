@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+**/node_modules/
+**/.git/
+**/.github/
+**/TestResults/
+**/GLMS.Tests/
+**/*.md
+**/appsettings.Development.json
+**/.dockerignore
+**/docker-compose*
+**/.env
+**/.gitignore
+**/audit.log

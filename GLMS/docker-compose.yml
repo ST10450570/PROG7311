@@ -1,6 +1,10 @@
-version: '3.8'
+
 
 services:
+
+  # ================================
+  # SQL Server Database Container
+  # ================================
   glms-db:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: glms-db
@@ -18,13 +22,16 @@ services:
       test: /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "GLMSDocker@2026" -C -Q "SELECT 1" || exit 1
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
       start_period: 30s
     restart: unless-stopped
 
+  # ================================
+  # GLMS API Container
+  # ================================
   glms-api:
     build:
-      context: ./GLMS.API
+      context: ./GLMS.Api
       dockerfile: Dockerfile
     container_name: glms-api
     depends_on:
@@ -33,18 +40,23 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_URLS: http://+:8080
-      ConnectionStrings__GLMS: Server=glms-db,1433;Database=GLMSDb;User Id=sa;Password=GLMSDocker@2026;TrustServerCertificate=True;MultipleActiveResultSets=true
-      Jwt__Key: GLMS_TechMove_JWT_Secret_2026_SuperSecure_Key!
-      Jwt__Issuer: GLMS.API
-      Jwt__Audience: GLMS.Web
-      AdminCredentials__Username: admin
-      AdminCredentials__Password: Admin@123
+      ConnectionStrings__GLMS: "Server=glms-db,1433;Database=GLMSDb;User Id=sa;Password=GLMSDocker@2026;TrustServerCertificate=True;MultipleActiveResultSets=true"
+      Jwt__Key: "GLMS_TechMove_JWT_Secret_2026_SuperSecure_Key!"
+      Jwt__Issuer: "GLMS.API"
+      Jwt__Audience: "GLMS.Web"
+      Jwt__ExpiryHours: "8"
+      AdminCredentials__Username: "admin"
+      AdminCredentials__Password: "Admin@123"
+      ExchangeRate__BaseUrl: "https://api.exchangerate-api.com/v4/latest/USD"
     ports:
       - "7100:8080"
     networks:
       - glms-network
     restart: unless-stopped
 
+  # ================================
+  # GLMS Web (MVC Frontend) Container
+  # ================================
   glms-web:
     build:
       context: ./GLMS.Web
@@ -55,19 +67,25 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_URLS: http://+:8080
-      ApiSettings__BaseUrl: http://glms-api:8080
-      Jwt__Key: GLMS_TechMove_JWT_Secret_2026_SuperSecure_Key!
-      Jwt__Issuer: GLMS.API
-      Jwt__Audience: GLMS.Web
+      ApiSettings__BaseUrl: "http://glms-api:8080"
+      Jwt__Key: "GLMS_TechMove_JWT_Secret_2026_SuperSecure_Key!"
+      Jwt__Issuer: "GLMS.API"
+      Jwt__Audience: "GLMS.Web"
     ports:
       - "7000:8080"
     networks:
       - glms-network
     restart: unless-stopped
 
+# ================================
+# Networks
+# ================================
 networks:
   glms-network:
     driver: bridge
 
+# ================================
+# Volumes
+# ================================
 volumes:
   glms-db-data:

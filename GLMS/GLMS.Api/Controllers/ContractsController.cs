@@ -1,9 +1,6 @@
 ﻿using GLMS.Api.DTOs.Contracts;
 using GLMS.Api.DTOs.ServiceRequests;
 using GLMS.Api.Services.Interfaces;
-using GLMS.Api.DTOs.Contracts;
-using GLMS.Api.DTOs.ServiceRequests;
-using GLMS.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,7 +21,10 @@ namespace GLMS.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] string? status, [FromQuery] DateTime? startDateFrom, [FromQuery] DateTime? startDateTo)
+        public async Task<IActionResult> GetAll(
+            [FromQuery] string? status,
+            [FromQuery] DateTime? startDateFrom,
+            [FromQuery] DateTime? startDateTo)
         {
             var contracts = await _contractService.GetAllAsync(status, startDateFrom, startDateTo);
             var dtos = contracts.Select(c => new ContractDto
@@ -74,7 +74,16 @@ namespace GLMS.Api.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
             var contract = await _contractService.CreateAsync(dto);
-            return CreatedAtAction(nameof(GetById), new { id = contract.Id }, contract);
+            return CreatedAtAction(nameof(GetById), new { id = contract.Id }, new ContractDto
+            {
+                Id = contract.Id,
+                ClientId = contract.ClientId,
+                StartDate = contract.StartDate,
+                EndDate = contract.EndDate,
+                Status = contract.Status.ToString(),
+                ServiceLevel = contract.ServiceLevel.ToString(),
+                SignedAgreementPath = contract.SignedAgreementPath
+            });
         }
 
         [HttpPatch("{id}/status")]
@@ -94,6 +103,8 @@ namespace GLMS.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            var existing = await _contractService.GetByIdAsync(id);
+            if (existing == null) return NotFound();
             await _contractService.DeleteAsync(id);
             return NoContent();
         }
@@ -101,16 +112,17 @@ namespace GLMS.Api.Controllers
         [HttpPost("{id}/upload-agreement")]
         public async Task<IActionResult> UploadAgreement(int id, IFormFile file)
         {
-            if (file == null || file.Length == 0) return BadRequest("No file uploaded.");
-            if (file.ContentType != "application/pdf" || !file.FileName.EndsWith(".pdf", StringComparison.OrdinalIgnoreCase))
-            {
+            if (file == null || file.Length == 0)
+                return BadRequest("No file uploaded.");
+            if (file.ContentType != "application/pdf" ||
+                !file.FileName.EndsWith(".pdf", StringComparison.OrdinalIgnoreCase))
                 return BadRequest("Only PDF files are allowed.");
-            }
 
             var contract = await _contractService.GetByIdAsync(id);
             if (contract == null) return NotFound("Contract not found.");
 
-            var webRootPath = _env.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            var webRootPath = _env.WebRootPath
+                ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
             var uploadsFolder = Path.Combine(webRootPath, "uploads");
             Directory.CreateDirectory(uploadsFolder);
 
@@ -118,12 +130,10 @@ namespace GLMS.Api.Controllers
             var filePath = Path.Combine(uploadsFolder, fileName);
 
             using (var stream = new FileStream(filePath, FileMode.Create))
-            {
                 await file.CopyToAsync(stream);
-            }
 
-            await _contractService.UpdatePathAsync(id, filePath);
-            return Ok(new { Path = filePath });
+            await _contractService.UpdatePathAsync(id, fileName);
+            return Ok(new { Path = fileName });
         }
 
         [HttpGet("{id}/download-agreement")]
@@ -131,16 +141,16 @@ namespace GLMS.Api.Controllers
         {
             var contract = await _contractService.GetByIdAsync(id);
             if (contract == null || string.IsNullOrEmpty(contract.SignedAgreementPath))
-            {
                 return NotFound("No agreement uploaded for this contract.");
-            }
 
-            if (!System.IO.File.Exists(contract.SignedAgreementPath))
-            {
+            var webRootPath = _env.WebRootPath
+                ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            var filePath = Path.Combine(webRootPath, "uploads", contract.SignedAgreementPath);
+
+            if (!System.IO.File.Exists(filePath))
                 return NotFound("Agreement file could not be found on server.");
-            }
 
-            return PhysicalFile(contract.SignedAgreementPath, "application/pdf", $"Agreement_{id}.pdf");
+            return PhysicalFile(filePath, "application/pdf", $"Agreement_{id}.pdf");
         }
     }
 }

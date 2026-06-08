@@ -1,0 +1,11 @@
+
+
+services:
+  glms-api:
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+
+  glms-web:
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ApiSettings__BaseUrl: "http://glms-api:8080"

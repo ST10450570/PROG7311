@@ -14,7 +14,10 @@ namespace GLMS.Web.Controllers
         private readonly ContractApiService _contractService;
         private readonly ClientApiService _clientService;
 
-        public ServiceRequestsController(ServiceRequestApiService srService, ContractApiService contractService, ClientApiService clientService)
+        public ServiceRequestsController(
+            ServiceRequestApiService srService,
+            ContractApiService contractService,
+            ClientApiService clientService)
         {
             _srService = srService;
             _contractService = contractService;
@@ -38,12 +41,7 @@ namespace GLMS.Web.Controllers
         {
             await PopulateActiveContractsDropDown();
             var rate = await _srService.GetLiveExchangeRateAsync();
-
-            var model = new CreateServiceRequestViewModel
-            {
-                ExchangeRate = rate
-            };
-            return View(model);
+            return View(new CreateServiceRequestViewModel { ExchangeRate = rate });
         }
 
         [HttpPost]
@@ -54,7 +52,8 @@ namespace GLMS.Web.Controllers
             {
                 var success = await _srService.CreateAsync(model);
                 if (success) return RedirectToAction(nameof(Index));
-                ModelState.AddModelError("", "Failed to create service request. Check if contract is active.");
+                ModelState.AddModelError("",
+                    "Failed to create service request. Check if contract is active.");
             }
 
             await PopulateActiveContractsDropDown();
@@ -85,7 +84,8 @@ namespace GLMS.Web.Controllers
             var list = contracts.Select(c => new
             {
                 c.Id,
-                DisplayName = $"Contract #{c.Id} - {(clientDict.ContainsKey(c.ClientId) ? clientDict[c.ClientId] : "Unknown Client")}"
+                DisplayName = $"Contract #{c.Id} - " +
+                    (clientDict.ContainsKey(c.ClientId) ? clientDict[c.ClientId] : "Unknown")
             });
 
             ViewBag.ActiveContracts = new SelectList(list, "Id", "DisplayName");

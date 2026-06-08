@@ -1,7 +1,5 @@
 ﻿using GLMS.Api.DTOs.ServiceRequests;
 using GLMS.Api.Services.Interfaces;
-using GLMS.Api.DTOs.ServiceRequests;
-using GLMS.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,7 +41,7 @@ namespace GLMS.Api.Controllers
             var sr = await _serviceRequestService.GetByIdAsync(id);
             if (sr == null) return NotFound();
 
-            var dto = new ServiceRequestDto
+            return Ok(new ServiceRequestDto
             {
                 Id = sr.Id,
                 ContractId = sr.ContractId,
@@ -53,19 +51,26 @@ namespace GLMS.Api.Controllers
                 Status = sr.Status.ToString(),
                 CreatedOn = sr.CreatedOn,
                 ClientName = sr.Contract?.Client?.Name
-            };
-            return Ok(dto);
+            });
         }
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateServiceRequestDto dto)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
-
             try
             {
                 var request = await _serviceRequestService.CreateAsync(dto);
-                return CreatedAtAction(nameof(GetById), new { id = request.Id }, request);
+                return CreatedAtAction(nameof(GetById), new { id = request.Id }, new ServiceRequestDto
+                {
+                    Id = request.Id,
+                    ContractId = request.ContractId,
+                    Description = request.Description,
+                    CostUsd = request.CostUsd,
+                    CostZar = request.CostZar,
+                    Status = request.Status.ToString(),
+                    CreatedOn = request.CreatedOn
+                });
             }
             catch (KeyNotFoundException ex)
             {
@@ -75,15 +80,13 @@ namespace GLMS.Api.Controllers
             {
                 return BadRequest(new { ex.Message });
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { Message = "An error occurred while creating the service request.", Details = ex.Message });
-            }
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            var existing = await _serviceRequestService.GetByIdAsync(id);
+            if (existing == null) return NotFound();
             await _serviceRequestService.DeleteAsync(id);
             return NoContent();
         }

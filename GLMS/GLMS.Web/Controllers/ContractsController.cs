@@ -15,7 +15,10 @@ namespace GLMS.Web.Controllers
         private readonly ClientApiService _clientService;
         private readonly FileService _fileService;
 
-        public ContractsController(ContractApiService contractService, ClientApiService clientService, FileService fileService)
+        public ContractsController(
+            ContractApiService contractService,
+            ClientApiService clientService,
+            FileService fileService)
         {
             _contractService = contractService;
             _clientService = clientService;
@@ -24,15 +27,16 @@ namespace GLMS.Web.Controllers
 
         public async Task<IActionResult> Index(ContractFilterViewModel filter)
         {
-            var contracts = await _contractService.GetContractsAsync(filter.Status, filter.StartDateFrom, filter.StartDateTo);
+            var contracts = await _contractService.GetContractsAsync(
+                filter.Status, filter.StartDateFrom, filter.StartDateTo);
 
-            // Map Client Names (since API Contract list doesn't include it directly)
             var clients = await _clientService.GetAllAsync();
             var clientDict = clients.ToDictionary(c => c.Id, c => c.Name);
 
             foreach (var c in contracts)
             {
-                if (clientDict.TryGetValue(c.ClientId, out string? name)) c.ClientName = name;
+                if (clientDict.TryGetValue(c.ClientId, out string? name))
+                    c.ClientName = name;
             }
 
             filter.Results = contracts;
@@ -61,9 +65,7 @@ namespace GLMS.Web.Controllers
         public async Task<IActionResult> Create(CreateContractViewModel model)
         {
             if (model.SignedAgreement != null && !_fileService.IsValidPdf(model.SignedAgreement))
-            {
                 ModelState.AddModelError("SignedAgreement", "Only PDF files are allowed.");
-            }
 
             if (ModelState.IsValid)
             {
@@ -71,9 +73,7 @@ namespace GLMS.Web.Controllers
                 if (contract != null)
                 {
                     if (model.SignedAgreement != null)
-                    {
                         await _contractService.UploadAgreementAsync(contract.Id, model.SignedAgreement);
-                    }
                     return RedirectToAction(nameof(Index));
                 }
                 ModelState.AddModelError("", "Failed to create contract.");

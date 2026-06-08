@@ -1,9 +1,6 @@
 ﻿using GLMS.Api.DTOs.Clients;
 using GLMS.Api.DTOs.Contracts;
 using GLMS.Api.Services.Interfaces;
-using GLMS.Api.DTOs.Clients;
-using GLMS.Api.DTOs.Contracts;
-using GLMS.Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -68,7 +65,14 @@ namespace GLMS.Api.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
             var client = await _clientService.CreateAsync(dto);
-            return CreatedAtAction(nameof(GetById), new { id = client.Id }, client);
+            return CreatedAtAction(nameof(GetById), new { id = client.Id }, new ClientDto
+            {
+                Id = client.Id,
+                Name = client.Name,
+                ContactEmail = client.ContactEmail,
+                ContactPhone = client.ContactPhone,
+                Region = client.Region
+            });
         }
 
         [HttpPut("{id}")]
@@ -89,6 +93,8 @@ namespace GLMS.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            var existing = await _clientService.GetByIdAsync(id);
+            if (existing == null) return NotFound();
             await _clientService.DeleteAsync(id);
             return NoContent();
         }
